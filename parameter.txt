@@ -1,0 +1,4 @@
+{'range_hc': [100, 200], 'range_tof':[100, 200], 'typ': 'good', 'mod': 'manual', 'cap': 'ultrason'}
+{'green': 16, 'orang': 20, 'red': 21}
+{'bit1':13, 'bit2':6}
+{'trig':26, 'echo':19}

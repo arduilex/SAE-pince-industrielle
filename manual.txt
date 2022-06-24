@@ -1,0 +1,18 @@
+get:
+Validez pour prendre une mesure via le capteur Tof. Cette mesure sera affichee sur l'ecran lcd en haut a droite en mm, puis chiffree dans 1 des 3 etats de la pince ouvert=ope, ferme=clos, prise=tak avant d'etre retranscrit sur l'ecran lcd en bas a gauche et sur une LED.
+
+set:
+Menu set. Definir les bornes de mesure min et max pour parametrer le chiffrage de l'etat de la pince: mesure < min -> ferme, mesure > max -> ouvert, sinon -> prise
+
+H:
+Menu help. Affiche le manuel d'utilisation de chaque menu. Exit permet de quitter proprmenet le programme et de sauvegarder les parametres (set, led).
+
+mod:
+Menu mode. Choisir le mode de mesure manuel ou automatique. auto=boucle infini: prendre une mesure, afficher la mesure et l'etat de la pince, attendre un delais definie par le type de mesure.
+
+typ:
+Menu type. Choisir la qualite des mesures du capteur Tof ce qui a pour effet d'influe sur le temps de pause entre chaque mesure. good=34ms better=66ms best=200ms long=34ms speed=20ms
+
+cap:
+Menu capteur. Pour changer de capteur selectionner votre capteur. Enelver le capteur actuelle. Fixer le nouveau capteur selctionner.
+
