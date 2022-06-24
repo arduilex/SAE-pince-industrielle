@@ -3,6 +3,8 @@ from VL53L0X import CapteurTof
 from HCSR04 import CapteurHC
 from os import system
 
+print("bite")
+
 # Féfinition de la classe Application
 class Application(object):
     """Classe qui contrôle chaque menuu de l'application"""
