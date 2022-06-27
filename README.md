@@ -1,4 +1,4 @@
 # SAE-pince-industrielle
 Instrumentation d'une pince pour un robot indutrielle
 
-Ce projet a été dans le cadre de ma SAE
+Projet etudiant 1a GEII
